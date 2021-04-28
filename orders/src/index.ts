@@ -10,7 +10,7 @@ import { natsWrapper } from './nats-wrapper';
 
 const start = async () => {
 
-  console.log("starting order service");
+  console.log("starting...");
   
   if (!process.env.JWT_KEY){
     throw new Error('JWT_KEY must be defined');
